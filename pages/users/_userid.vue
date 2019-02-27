@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      userID: this.$route.params.id
+      userID: this.$route.params.userid
     }
   }
 }
