@@ -1,11 +1,5 @@
-# dependencies
-node_modules
+gibo 2.1.2 by Simon Whitaker <sw@netcetera.org>
+https://github.com/simonwhitaker/gibo
 
-# logs
-npm-debug.log
-
-# Nuxt build
-.nuxt
-
-# Nuxt generate
-dist
+.envrc
+/node_modules
