@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['~/plugins/logger'],
+  plugins: [{ src: '~/plugins/logger', ssr: true }],
   router: {
     middleware: [
       'auth'
