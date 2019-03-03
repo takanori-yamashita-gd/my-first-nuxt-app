@@ -2,7 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
+const _066a023c = () => interopDefault(import('../pages/authed-route.vue' /* webpackChunkName: "pages/authed-route" */))
 const _3308de1a = () => interopDefault(import('../pages/child.vue' /* webpackChunkName: "pages/child" */))
+const _f4a4c680 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
 const _454091bc = () => interopDefault(import('../pages/users/index.vue' /* webpackChunkName: "pages/users/index" */))
 const _0eed6803 = () => interopDefault(import('../pages/users/register.vue' /* webpackChunkName: "pages/users/register" */))
 const _90e203d6 = () => interopDefault(import('../pages/users/_userid.vue' /* webpackChunkName: "pages/users/_userid" */))
@@ -83,9 +85,17 @@ export function createRouter() {
     scrollBehavior,
 
     routes: [{
+      path: "/authed-route",
+      component: _066a023c,
+      name: "authed-route"
+    }, {
       path: "/child",
       component: _3308de1a,
       name: "child"
+    }, {
+      path: "/login",
+      component: _f4a4c680,
+      name: "login"
     }, {
       path: "/users",
       component: _454091bc,
